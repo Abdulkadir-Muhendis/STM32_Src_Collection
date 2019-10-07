@@ -1,23 +1,3 @@
-/*
-Library:					STM32F4 Audio Codec - CS43L22
-Written by:				Mohamed Yaqoob (MYaqoobEmbedded YouTube Channel)
-Date Written:			29/01/2016
-Last modified:			29/12/2018
-Description:			This is an STM32 device driver library for the CS43L22 Audio Codec, using STM HAL libraries
-
-References:
-			1) Cirrus Logic CS43L22 datasheet
-				 https://www.mouser.com/ds/2/76/CS43L22_F2-1142121.pdf
-			2) ST opensource CS43L22 Audio Codec dsp drivers.
-										
-* Copyright (C) 2018 - M. Yaqoob
-   This is a free software under the GNU license, you can redistribute it and/or modify it under the terms
-   of the GNU General Public Licenseversion 3 as published by the Free Software Foundation.
-	
-   This software library is shared with puplic for educational purposes, without WARRANTY and Author is not liable for any damages caused directly
-   or indirectly by this software, read more about this on the GNU General Public License.
-*/
-
 #include "stm32f4xx_hal.h"
 #include "MY_CS43L22.h"
 
