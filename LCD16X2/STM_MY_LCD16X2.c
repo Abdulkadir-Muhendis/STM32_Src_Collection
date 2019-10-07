@@ -1,14 +1,3 @@
-/*
-	References**:
-									This was written based on the open source Arduino LiquidCrystal library 
-									and by referring to the DATASHEET of the LCD16X2, also with the help of 
-									the following YouTube tutorials on LCD 16X2:
-									(1): 'RC Tractor Guy' YouTube tutorial on the following link:
-											 https://www.youtube.com/watch?v=efi2nlsvbCI 
-									(2): 'Explore Embedded' YouTube tutorial on the following link:
-											 https://www.youtube.com/watch?v=YDJISiPUdA8
-*/
-
 
 //***** Header files *****//
 #include "STM_MY_LCD16X2.h"
