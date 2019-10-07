@@ -1,22 +1,3 @@
-/*
-library name: 	MPU6050 6 axis module
-written by: 		T.Jaber
-Date Written: 	25 Mar 2019
-Last Modified: 	20 April 2019 by Mohamed Yaqoob
-Description: 		MPU6050 Module Basic Functions Device Driver library that use HAL libraries.
-References:			
-								- MPU6050 Registers map: https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf
-								- Jeff Rowberg MPU6050 library: https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050
-								
-* Copyright (C) 2019 - T. Jaber
-   This is a free software under the GNU license, you can redistribute it and/or modify it under the terms
-   of the GNU General Public Licenseversion 3 as published by the Free Software Foundation.
-	
-   This software library is shared with puplic for educational purposes, without WARRANTY and Author is not liable for any damages caused directly
-   or indirectly by this software, read more about this on the GNU General Public License.
-
-*/
-
 //Header Files
 #include "stm32f4xx_hal.h"  //dpending on your board
 #include <string.h>
