@@ -1,12 +1,3 @@
-/*
-Library:				NRF24L01 software library for STM32 MCUs
-Written by:			Mohamed Yaqoob
-Date written:		25/10/2018
-Last modified:	-/-
-Description:
-
-*/
-
 #define _BV(x) (1<<(x))
 
 /* Memory Map */
