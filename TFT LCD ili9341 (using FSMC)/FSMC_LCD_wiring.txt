@@ -1,0 +1,16 @@
+FSMC_NE1	-> LCD_CS
+FSMC_NWE	-> LCD_WR
+FSMC_NOE	-> LCD_RD
+FSMC_A18	-> LCD_RS
+
+LCD_RST	-> 3V   (or a GPIO output, set LOW to reset at the start, then back to HIGH)
+
+FSMC_D0		-> LCD_D0
+FSMC_D1		-> LCD_D1
+FSMC_D2		-> LCD_D2
+FSMC_D3		-> LCD_D3
+
+FSMC_D4		-> LCD_D4
+FSMC_D5		-> LCD_D5
+FSMC_D6		-> LCD_D6
+FSMC_D7		-> LCD_D7
