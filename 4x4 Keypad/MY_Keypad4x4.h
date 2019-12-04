@@ -2,7 +2,7 @@
 #include "stm32f4xx_hal.h"
 #include <stdbool.h>
 
-//***** Constant variables and typedefs *****//
+//**** Constant variables and typedefs ****//
 typedef struct
 {
 	GPIO_TypeDef* IN0_Port;
