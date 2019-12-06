@@ -26,8 +26,6 @@ void DHT22_Init(GPIO_TypeDef* DataPort, uint16_t DataPin)
 			break;
 		}
 	}
-
-	
 }
 //Change pin mode
 static void ONE_WIRE_PinMode(OnePinMode_Typedef mode)
