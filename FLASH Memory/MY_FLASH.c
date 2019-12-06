@@ -1,5 +1,4 @@
 #include "MY_FLASH.h"
-
 //Private variables
 //1. sector start address
 static uint32_t MY_SectorAddrs;
@@ -66,7 +65,6 @@ void MY_FLASH_WriteN(uint32_t idx, void *wrBuf, uint32_t Nsize, DataTypeDef data
 void MY_FLASH_ReadN(uint32_t idx, void *rdBuf, uint32_t Nsize, DataTypeDef dataType)
 {
 	uint32_t flashAddress = MY_SectorAddrs + idx;
-	
 	switch(dataType)
 	{
 		case DATA_TYPE_8:
