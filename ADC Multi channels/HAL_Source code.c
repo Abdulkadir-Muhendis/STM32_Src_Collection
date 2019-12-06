@@ -27,9 +27,7 @@ int main(void)
 	HAL_ADC_Start_DMA(&myADC_handle, (uint32_t *)adcVal, 3);
 	
 	while(1)
-	{
-		
-		
+	{	
 	}
 }
 
