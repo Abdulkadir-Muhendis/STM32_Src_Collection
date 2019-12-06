@@ -10,9 +10,6 @@ typedef enum
 	ONE_OUTPUT = 0,
 	ONE_INPUT,
 }OnePinMode_Typedef;
-
-
-
 //*** Functions prototypes ***//
 //OneWire Initialise
 void DHT22_Init(GPIO_TypeDef* DataPort, uint16_t DataPin);
