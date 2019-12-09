@@ -2,6 +2,7 @@
 #include <stdio.h>  //printf
 #include <string.h> //
 
+
 //2. Printf 
 #ifdef __GNUC__
   /* With GCC, small printf (option LD Linker->Libraries->Small printf
