@@ -311,7 +311,7 @@ void LCD1602_display(void)
 	DisplayControl |= (0x04);
 	LCD1602_writeCommand(DisplayControl);
 }
-//10) Shift Display, right or left
+//10) Shift Display, right or left:
 void LCD1602_shiftToRight(uint8_t num)
 {
 	for(uint8_t i=0; i<num;i++)
