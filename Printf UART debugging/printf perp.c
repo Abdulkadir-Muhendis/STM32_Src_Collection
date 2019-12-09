@@ -22,7 +22,7 @@ PUTCHAR_PROTOTYPE
 
   return ch;
 }
-
+zz
 Step(4): Add stdio header (to use printf)
 #include <stdio.h>
 
@@ -30,6 +30,7 @@ Step(5): Test printing hello world
 printf("Hello world\r\n");
 
 Step(6): Test printing integer
+
 Step(7): Test printing float
 
 Part2: for GNU compiler (SW4STM32), need to add the following flag
