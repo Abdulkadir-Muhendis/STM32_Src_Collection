@@ -30,7 +30,6 @@ FRESULT res;                                          /* FatFs function common r
 uint32_t byteswritten, bytesread;                     /* File write/read counts */
 uint8_t wtext[] = "Hello from Mohamed :), xx"; /* File write buffer */
 uint8_t rtext[100];                                   /* File read buffer */
-
 //5. File Operations
 	if(f_mount(&SDFatFS, (TCHAR const*)SDPath, 0) != FR_OK)
 	{
