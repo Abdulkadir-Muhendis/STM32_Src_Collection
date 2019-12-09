@@ -1,5 +1,4 @@
 #include "stm32f4xx.h"
-
 //Functions prototypes
 void GPIO_Config(void);
 void DMA_Config(void);
