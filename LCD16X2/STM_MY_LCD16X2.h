@@ -78,7 +78,6 @@ void LCD1602_display(void);
 //10) Shift Display, right or left
 void LCD1602_shiftToRight(uint8_t num);
 void LCD1602_shiftToLeft(uint8_t num);
-
 //********** Print numbers to LCD **********//
 //1. Integer
 void LCD1602_PrintInt(int number);
