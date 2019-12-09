@@ -1,5 +1,4 @@
 #include "stm32f4xx_hal.h"
-
 //Functions prototypes
 void GPIO_Config(void);
 void DMA_Config(ADC_HandleTypeDef* hadc);
@@ -85,7 +84,7 @@ void ADC_Config(void)
   myADC_handle.Init.NbrOfConversion = 3;
   myADC_handle.Init.DMAContinuousRequests = ENABLE;
   myADC_handle.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
-	HAL_ADC_Init(&myADC_handle);
+  HAL_ADC_Init(&myADC_handle);
 	
 	//ADC channel settings
 	ADC_ChannelConfTypeDef ADC_ChConfg;
