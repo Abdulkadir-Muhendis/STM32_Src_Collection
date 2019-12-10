@@ -1,9 +1,3 @@
-/*
- * OLED_ClassV1.h
- *
- *  Created on: Nov 22, 2018
- *      Author: ASUS
- */
 
 //Includes
 #include "stm32f4xx_hal.h"  //Change this based on your STM32 Series
