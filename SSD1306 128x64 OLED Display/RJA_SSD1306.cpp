@@ -1,9 +1,3 @@
-/*
- * OLED_ClassV1.cpp
- *
- *  Created on: Nov 22, 2018
- *      Author: ASUS
- */
 
 #include "RJA_SSD1306.h"
 
