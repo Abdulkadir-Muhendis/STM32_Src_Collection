@@ -80,5 +80,3 @@ Step(9): While 1 main
 	  sprintf(xTouchStr, "Y: %3d", ts.touchY[0]);
 	  BSP_LCD_DisplayStringAt(20, 60, (uint8_t *)xTouchStr, LEFT_MODE);
 	  HAL_Delay(50);
-
-
