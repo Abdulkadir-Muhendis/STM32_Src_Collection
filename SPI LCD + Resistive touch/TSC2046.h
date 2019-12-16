@@ -1,7 +1,6 @@
 //Header files
 //** CHANGE BASED ON STM32 CHIP F4/F7/F1...**//
 #include "stm32f4xx_hal.h"
-
 #include "MY_ILI9341.h"
 #include <math.h>
 #include <stdbool.h>
