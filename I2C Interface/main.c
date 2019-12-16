@@ -6,12 +6,10 @@ void I2C_Config(void);
 #define mpu9265Address	0xD0
 
 I2C_HandleTypeDef myI2Chandle;
-
 //I2C variables 
 uint8_t i2cBuf[8];
 int16_t ax,ay,az;
 float Xaccel,Yaccel,Zaccel;
-
 int main(void)
 {
 	//HAL Initialise
