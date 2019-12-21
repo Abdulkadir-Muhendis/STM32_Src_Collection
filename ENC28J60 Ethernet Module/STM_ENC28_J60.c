@@ -1,5 +1,4 @@
 #include "STM_ENC28_J60.h"
-
 //variables
 extern SPI_HandleTypeDef hspi1;
 static uint8_t Enc28_Bank;
