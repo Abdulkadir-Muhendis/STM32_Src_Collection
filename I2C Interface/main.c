@@ -2,7 +2,6 @@
 
 void GPIO_Config(void);
 void I2C_Config(void);
-
 #define mpu9265Address	0xD0
 
 I2C_HandleTypeDef myI2Chandle;
