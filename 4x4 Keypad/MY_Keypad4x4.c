@@ -150,4 +150,3 @@ char* Keypad4x4_GetChar(uint8_t keypadSw)
 {
 	return Keypad_keys[keypadSw];
 }
-
