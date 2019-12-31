@@ -4,7 +4,6 @@ void GPIO_Config(void);
 void DMA_Config(void);
 void ADC_Config(void);
 void startADC_DMA(uint32_t SrcAddr, uint32_t DstAddr, uint32_t length);
-
 //Numeric variables
 uint8_t adcVal[3];
 
