@@ -1,7 +1,6 @@
 //***** Header files *****//
 #include "MY_Keypad4x4.h"
 
-
 //***** Library variables *****//
 //1. Keypad pinout variable
 static Keypad_WiresTypeDef KeypadStruct;
