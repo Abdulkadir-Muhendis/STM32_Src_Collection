@@ -2,7 +2,6 @@
 #include "stdio.h"
 #include "usart.h"
 
-
 #define RECEIVED_DATA_SIZE 16
 
 extern "C"{
