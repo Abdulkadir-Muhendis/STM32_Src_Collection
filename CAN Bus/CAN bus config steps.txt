@@ -2,7 +2,6 @@ Step(1): CubeMX set up
 	- Enable CAN and map to PB8 and PB9 pins
 	- Enable CAN Rx interrupt
 ================================
-
 Step(2): Declare Tx and Rx message typedef
 static CanTxMsgTypeDef myTxMessage;
 static CanRxMsgTypeDef myRxMessage;
