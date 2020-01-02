@@ -55,7 +55,6 @@ void LIS3DSH_ReadIO(uint8_t reg, uint8_t *dataR, uint8_t size)
 	}
 }
 
-
 //1. Accelerometer initialise function
 void LIS3DSH_Init(SPI_HandleTypeDef *accSPI, LIS3DSH_InitTypeDef *accInitDef)
 {
