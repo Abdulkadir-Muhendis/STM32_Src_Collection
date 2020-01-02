@@ -1,4 +1,3 @@
-
 //***** Header files *****//
 #include "STM_MY_LCD16X2.h"
 
