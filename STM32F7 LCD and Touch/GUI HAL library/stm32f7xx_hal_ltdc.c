@@ -8,8 +8,7 @@
   *           + Initialization and de-initialization functions
   *           + IO operation functions
   *           + Peripheral Control functions  
-  *           + Peripheral State and Errors functions
-  *           
+  *           + Peripheral State and Errors functions        
   @verbatim      
   ==============================================================================
                         ##### How to use this driver #####
