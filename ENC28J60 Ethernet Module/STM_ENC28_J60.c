@@ -141,7 +141,6 @@ void ENC28_Init(void)
 //	ENC28_writeOp(ENC28_BIT_FIELD_SET, EIE, EIE_INTIE|EIE_PKTIE);
 //	ENC28_writeOp(ENC28_BIT_FIELD_SET, EIR, EIR_PKTIF);
 }
-
 void ENC28_packetSend(uint16_t len, uint8_t* dataBuf)
 {
 	uint8_t retry = 0;
