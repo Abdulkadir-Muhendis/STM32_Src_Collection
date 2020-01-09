@@ -81,7 +81,6 @@ void GPIO_Config(void)
 	myPinInit.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
 	myPinInit.Alternate = GPIO_AF4_I2C1;
 	HAL_GPIO_Init(GPIOB, &myPinInit);
-	
 	//Systick interrupt enable for HAL_Delay function
 	HAL_SYSTICK_Config(HAL_RCC_GetHCLKFreq()/1000);
   HAL_SYSTICK_CLKSourceConfig(SYSTICK_CLKSOURCE_HCLK);
