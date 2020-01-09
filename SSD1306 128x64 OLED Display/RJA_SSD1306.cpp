@@ -1,6 +1,4 @@
-
 #include "RJA_SSD1306.h"
-
 constexpr unsigned char OLED::font1[];
 
 OLED::OLED()
