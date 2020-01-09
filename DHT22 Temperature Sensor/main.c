@@ -1,11 +1,9 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f4xx_hal.h"
-
 /* USER CODE BEGIN Includes */
 #include "MY_DHT22.h"
 /* USER CODE END Includes */
-
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef huart2;
 
