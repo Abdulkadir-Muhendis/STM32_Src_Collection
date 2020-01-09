@@ -1,4 +1,3 @@
-
 //Includes
 #include "stm32f4xx_hal.h"  //Change this based on your STM32 Series
 #include <math.h>
