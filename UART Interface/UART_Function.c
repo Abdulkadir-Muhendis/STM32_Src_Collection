@@ -1,9 +1,7 @@
 #include "stm32f4xx_hal.h"
 #include "stdio.h"
 #include "usart.h"
-
 #define RECEIVED_DATA_SIZE 16
-
 extern "C"{
 	void USART6_IRQHandler(void);
 	void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
