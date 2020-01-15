@@ -20,7 +20,6 @@ void MY_FLASH_SetSectorAddrs(uint8_t sector, uint32_t addrs)
 	MY_SectorNum = sector;
 	MY_SectorAddrs = addrs;
 }
-
 //3. Write Flash
 void MY_FLASH_WriteN(uint32_t idx, void *wrBuf, uint32_t Nsize, DataTypeDef dataType)
 {
