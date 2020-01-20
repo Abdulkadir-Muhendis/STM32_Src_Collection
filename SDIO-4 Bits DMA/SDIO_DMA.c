@@ -22,9 +22,7 @@ uint8_t BSP_SD_ReadBlocks_DMA(uint32_t *pData, uint32_t ReadAddr, uint32_t NumOf
 	if ((SD_DATATIMEOUT <= timeout)) { return HAL_TIMEOUT; }
 	return MSD_OK;
 }
-
 //====================================
-
 uint8_t BSP_SD_WriteBlocks_DMA(uint32_t *pData, uint32_t WriteAddr, uint32_t NumOfBlocks)
 {
 	uint8_t sd_state = MSD_OK;
