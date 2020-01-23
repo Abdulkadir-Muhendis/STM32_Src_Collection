@@ -1,5 +1,4 @@
 #include "stm32f4xx_hal.h"
-
 // Operations Defines
 #define ENC28_READ_CTRL_REG	 	 0x00
 #define ENC28_WRITE_CTRL_REG   0x40 //0x02
