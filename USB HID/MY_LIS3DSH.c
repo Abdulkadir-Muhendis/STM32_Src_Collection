@@ -180,4 +180,3 @@ void LIS3DSH_Z_calibrate(float z_min, float z_max)
 	__Z_Bias = (z_max+z_min)/2.0f;
 	__Z_Scale = (2*1000)/(z_max - z_min);
 }
-
