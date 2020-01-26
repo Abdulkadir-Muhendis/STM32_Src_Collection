@@ -1,7 +1,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f4xx_hal.h"
-
 /* USER CODE END Includes */
 /* Private variables ---------------------------------------------------------*/
 CAN_HandleTypeDef hcan1;
