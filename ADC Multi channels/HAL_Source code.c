@@ -106,5 +106,4 @@ void ADC_Config(void)
   ADC_ChConfg.Rank = 3;
   ADC_ChConfg.SamplingTime = ADC_SAMPLETIME_480CYCLES;
   HAL_ADC_ConfigChannel(&myADC_handle, &ADC_ChConfg);
-
 }
