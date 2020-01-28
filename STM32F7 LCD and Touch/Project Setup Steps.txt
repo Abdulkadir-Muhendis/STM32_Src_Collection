@@ -27,7 +27,6 @@ Step(6): Uncomment the following into the stm32f7xx_hal_conf.h:
 #define HAL_LTDC_MODULE_ENABLED
 #define HAL_UART_MODULE_ENABLED
 
-
 Step(7): Modify STM32F7xx_it.c to include the following:
 -----------------------------
 extern LTDC_HandleTypeDef hLtdcHandler;
