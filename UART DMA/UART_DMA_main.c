@@ -282,8 +282,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 			break;
 	}
 
-	
-	
 	// * 1 #
 //	//Check the command msg
 //	if(rxBuf[0] == '*' && rxBuf[2] == '#')  //A valid command
