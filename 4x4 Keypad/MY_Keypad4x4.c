@@ -5,7 +5,6 @@
 static Keypad_WiresTypeDef KeypadStruct;
 //2. OUT pins position, or pin number in decimal for use in colomn change function
 static uint8_t OutPositions[4];
-
 static char *Keypad_keys[16] =
 {
 	"1",
