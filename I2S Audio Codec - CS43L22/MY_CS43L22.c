@@ -137,7 +137,6 @@ void CS43_SetVolume(uint8_t volume)
 	write_register(CS43L22_REG_MASTER_A_VOL,&iData[1]);
 	write_register(CS43L22_REG_MASTER_B_VOL,&iData[1]);
 }
-
 // Function(4): Start the Audio DAC
 void CS43_Start(void)
 {
