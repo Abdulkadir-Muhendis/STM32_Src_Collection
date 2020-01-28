@@ -6,7 +6,6 @@
 #include "MY_CS43L22.h"
 #include <math.h>
 /* USER CODE END Includes */
-
 /* Private variables ---------------------------------------------------------*/
 I2C_HandleTypeDef hi2c1;
 
