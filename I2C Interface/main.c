@@ -103,7 +103,6 @@ void I2C_Config(void)
 	myI2Chandle.Init.OwnAddress2 = 0;
 	HAL_I2C_Init(&myI2Chandle);
 }
-
 void SysTick_Handler(void)
 {
   HAL_IncTick();
