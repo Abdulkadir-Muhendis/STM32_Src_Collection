@@ -2,7 +2,6 @@
 #include "main.h"
 #include "cmsis_os.h"
 #include "fatfs.h"
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdio.h>  //printf
