@@ -150,4 +150,3 @@ bool DHT22_GetTemp_Humidity(float *Temp, float *Humidity)
 	}
 	return 0;
 }
-
