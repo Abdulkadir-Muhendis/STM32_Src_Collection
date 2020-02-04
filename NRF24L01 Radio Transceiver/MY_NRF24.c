@@ -1,6 +1,5 @@
 //List of header files
 #include "MY_NRF24.h"
-
 //*** Variables declaration ***//
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 #define MIN(x, y) (((x) < (y)) ? (x) : (y))
