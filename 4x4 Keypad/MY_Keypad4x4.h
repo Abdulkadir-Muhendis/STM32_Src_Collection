@@ -1,7 +1,6 @@
 //Header files
 #include "stm32f4xx_hal.h"
 #include <stdbool.h>
-
 //**** Constant variables and typedefs ****//
 typedef struct
 {
@@ -38,6 +37,3 @@ static void Keypad4x4_ChangeColomn(uint8_t colNum_0_to_3);
 void Keypad4x4_ReadKeypad(bool keys[16]);
 //Function(5): Get character
 char* Keypad4x4_GetChar(uint8_t keypadSw);
-
-
-
