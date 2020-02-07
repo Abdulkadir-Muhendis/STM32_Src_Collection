@@ -4,7 +4,6 @@
 /* USER CODE END Includes */
 /* Private variables ---------------------------------------------------------*/
 CAN_HandleTypeDef hcan1;
-
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
 //Tx and Rx Message structure/typdef
@@ -36,9 +35,7 @@ void LED_Switch(uint8_t led);
 
 int main(void)
 {
-
   /* MCU Configuration----------------------------------------------------------*/
-
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
 
