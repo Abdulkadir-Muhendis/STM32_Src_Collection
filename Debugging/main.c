@@ -6,7 +6,6 @@
   Also make sure to have the right settings in system_stm32f4xx.c for input clock.
   Remember to coment out all delay function to speed up debugging.
 */
-
 #include "stm32f4xx.h"
 
 void RCC_Setup();
