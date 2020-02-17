@@ -1,7 +1,5 @@
 /* This code shows how to manipulate GPIO ports */
-
 #include "stm32f4xx.h"
-
 int main(void)
 {
   // Enable clock to GPIOA and GPIOD
