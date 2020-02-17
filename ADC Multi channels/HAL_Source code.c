@@ -10,7 +10,6 @@ ADC_HandleTypeDef myADC_handle;
 
 //Numeric variables
 uint8_t adcVal[3];
-
 int main(void)
 {
 	//HAL Initialisation
