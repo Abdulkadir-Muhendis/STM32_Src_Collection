@@ -1,4 +1,3 @@
-//Header files
 #include "MY_DHT22.h"
 
 //Bit fields manipulations
