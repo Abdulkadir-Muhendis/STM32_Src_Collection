@@ -15,14 +15,10 @@ int main(void)
 	//ADC Config
 	ADC_Config();
 	
-	//Start ADC DMA
-	
+	//Start ADC DMA	
 	startADC_DMA((uint32_t)&ADC1->DR, (uint32_t)adcVal, 3);
-	
 	while(1)
 	{
-		
-		
 	}
 }
 
@@ -130,7 +126,6 @@ void startADC_DMA(uint32_t SrcAddr, uint32_t DstAddr, uint32_t length)
 	}
 	GPIOD->ODR ^= (1UL << 12);
 }
-
 void DMA2_Stream0_IRQHandler(void)
 {
 }
