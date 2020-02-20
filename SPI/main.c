@@ -1,4 +1,3 @@
-/* This code shows how to use SPI with the onboard accelerometer. We will be sending data over USART */
 #include "stm32f4xx.h"
 
 // Setup function prototypes
