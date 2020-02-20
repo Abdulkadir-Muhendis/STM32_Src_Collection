@@ -1,6 +1,3 @@
-/* This code shows how to use DMA with ADC for a simple and usefull example.
-*  We will be sending data over USART
-*/
 #include "stm32f4xx.h"
 
 // Setup function prototypes
