@@ -10,9 +10,7 @@ int main(void)
 {
   SysTick_Config(SystemCoreClock / 1000000);
 
-  RCC_AHB1PeriphClockCmd( RCC_AHB1Periph_GPIOA |
-  												RCC_AHB1Periph_GPIOD,
-                          ENABLE);
+  RCC_AHB1PeriphClockCmd( RCC_AHB1Periph_GPIOA |RCC_AHB1Periph_GPIOD, ENABLE);
   RCC_APB1PeriphClockCmd(RCC_APB1Periph_DAC, ENABLE);
 
   GPIO_InitTypeDef GPIO_InitStruct;
@@ -33,7 +31,6 @@ int main(void)
   DAC_InitStruct.DAC_OutputBuffer = DAC_OutputBuffer_Enable;
   DAC_Init(DAC_Channel_1, &DAC_InitStruct);
   DAC_Cmd(DAC_Channel_1, ENABLE);
-
   uint16_t i,k;
 
   while(1)
