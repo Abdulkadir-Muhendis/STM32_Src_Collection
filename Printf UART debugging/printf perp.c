@@ -22,7 +22,6 @@ PUTCHAR_PROTOTYPE
 
   return ch;
 }
-zz
 Step(4): Add stdio header (to use printf)
 #include <stdio.h>
 
