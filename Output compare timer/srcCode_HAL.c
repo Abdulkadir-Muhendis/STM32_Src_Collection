@@ -44,10 +44,6 @@ void TIM_Config(void)
 	//Enable TIM4 peripheral clock
 	__HAL_RCC_TIM4_CLK_ENABLE();
 	
-		
-  
-  
-	
 	//1. Basic timer initialisation
 	tim4Handle.Instance = TIM4;
 	tim4Handle.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
