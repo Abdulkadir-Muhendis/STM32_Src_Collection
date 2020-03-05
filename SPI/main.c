@@ -1,5 +1,4 @@
 #include "stm32f4xx.h"
-
 // Setup function prototypes
 void RCC_Setup();
 void GPIO_Setup();
