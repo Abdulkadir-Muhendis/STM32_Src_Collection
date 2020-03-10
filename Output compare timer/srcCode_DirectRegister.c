@@ -2,7 +2,6 @@
 
 void GPIO_Config(void);
 void TIM_Config(void);
-
 int main(void)
 {
 	//configurations
