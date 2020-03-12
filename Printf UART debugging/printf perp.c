@@ -12,7 +12,6 @@ Step(2): Add the following on top of main
   #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
 #endif /* __GNUC__ */
 /* USER CODE END PTD */
-
 Step(3): Add body definition of PUTCHAR_PROTOTYPE
 PUTCHAR_PROTOTYPE
 {
