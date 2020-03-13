@@ -1,6 +1,5 @@
 #include "stm32f4xx.h"
-#include "swo.h"
-			
+#include "swo.h"		
 #define PINS GPIO_Pin_12|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15
 
 uint32_t gTicks;
