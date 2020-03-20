@@ -157,7 +157,6 @@ void NRF24_begin(GPIO_TypeDef *nrf24PORT, uint16_t nrfCSN_Pin, uint16_t nrfCE_Pi
 	nrf24_PORT = nrf24PORT;
 	nrf24_CSN_PIN = nrfCSN_Pin;
 	nrf24_CE_PIN = nrfCE_Pin;
-	
 	//Put pins to idle state
 	NRF24_csn(1);
 	NRF24_ce(0);
