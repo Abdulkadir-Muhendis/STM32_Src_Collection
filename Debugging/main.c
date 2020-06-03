@@ -2,7 +2,6 @@
   This is a template file that you can use to start your project on your
   stm32 developlent board ment for further tutorials in System Workbench.
   Choose the StdPeriph library in your IDE / project.
-
   Also make sure to have the right settings in system_stm32f4xx.c for input clock.
   Remember to coment out all delay function to speed up debugging.
 */
