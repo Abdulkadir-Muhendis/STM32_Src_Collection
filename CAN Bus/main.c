@@ -32,7 +32,6 @@ void LED_Switch(uint8_t led);
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */
-
 int main(void)
 {
   /* MCU Configuration----------------------------------------------------------*/
